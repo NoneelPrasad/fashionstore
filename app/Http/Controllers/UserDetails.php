@@ -18,8 +18,9 @@ class UserDetails extends Controller
 
         $products = DB::select('SELECT * FROM products_test ORDER BY RAND()LIMIT 12');
         $colors = DB::select('select baseColour from products_test group by baseColour LIMIT 6');
+        $categories = DB::select('select gender from products_test group by gender');
 
-    return view('shop', ['products' => $products],['colors' => $colors]);
-                
+    //return view('shop', ['products' => $products],['colors' => $colors]);
+      return view('shop', compact('products','colors','categories'));          
     }
 }
