@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Shoppers &mdash; Colorlib e-Commerce Template</title>
+    <title>E Commerce &mdash; group Assignment</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700"> 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="{{asset('fonts/icomoon/style.css')}}">
 
     <link rel="stylesheet" href="{{url('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{url('css/magnific-popup.css')}}">
